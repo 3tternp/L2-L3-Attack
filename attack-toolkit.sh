@@ -14,6 +14,10 @@ check_and_install_tools() {
         if ! command -v $tool &>/dev/null; then
             echo "[-] $tool not found. Installing..."
             sudo apt install -y $tool
+            sudo apt install -y ettercap
+            sudo apt install -y yersinia 
+            sudo apt install -y macof 
+            sudo apt install -y arping 
         else
             echo "[+] $tool installed."
         fi

@@ -15,6 +15,7 @@ check_and_install_tools() {
             echo "[-] $tool not found. Installing..."
             sudo apt install -y $tool
             sudo apt install -y ettercap
+             sudo apt install -y ettercap-graphical
             sudo apt install -y yersinia 
             sudo apt install -y macof 
             sudo apt install -y arping 
